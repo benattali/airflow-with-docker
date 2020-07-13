@@ -1,0 +1,2 @@
+apache-airflow[postgres]==1.10.9
+boto3
