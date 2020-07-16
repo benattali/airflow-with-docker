@@ -6,7 +6,7 @@ Apache-Airflow (from here on forth, airflow) is a tool for automating scheduled 
 - *OPTIONAL* I recommend creating a virtual environment in the root project and entering it  
   - `pip install virtualenv` - install virtualenv
   - `cd root/path/of/project` - cd to the root of your project
-  - `virtualenv venv` create a virtualenv called venv, you can name it anything you want
+  - `virtualenv venv` create a virtual environment called venv, you can name it anything you want
   - `source venv/bin/activate` - enter the virtual environment
 - Run `make local-build` to build docker images. Rerun this step when some of the configurations have been changed, for example adding a package to the `requirements.txt` file or changing something around in the `Dockerfile`
 - Run `make local-run` to run docker image instances
