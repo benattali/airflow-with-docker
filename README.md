@@ -8,6 +8,7 @@ Apache-Airflow (from here on forth, airflow) is a tool for automating scheduled 
   - `cd root/path/of/project` - cd to the root of your project
   - `virtualenv venv` create a virtual environment called venv, you can name it anything you want
   - `source venv/bin/activate` - enter the virtual environment
+  - `deactivate` - exit the virtual environment
 - Run `make local-build` to build docker images. Rerun this step when some of the configurations have been changed, for example adding a package to the `requirements.txt` file or changing something around in the `Dockerfile`
 - Run `make local-run` to run docker image instances
 - If everything worked it should run on localhost:8080
