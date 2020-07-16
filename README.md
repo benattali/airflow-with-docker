@@ -2,7 +2,7 @@
 Apache-Airflow (from here on forth, airflow) is a tool for automating scheduled pipelines. Many airflow beginners often struggle with using airflow within a docker environment. This repo shows a simple example of how to get airflow running with a couple of DAG's within docker.
 
 ## To run this example
-- First make sure Python and Pip are installed
+- First make sure Python, Pip, Docker, Docker Compose and Apache Airflow are installed
 - *OPTIONAL* I recommend creating a virtual environment in the root project and entering it  
   - `pip install virtualenv` - install virtualenv
   - `cd root/path/of/project` - cd to the root of your project
