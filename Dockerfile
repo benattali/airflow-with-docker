@@ -1,5 +1,5 @@
 FROM puckel/docker-airflow:1.10.9
-MAINTAINER ben.attali@pagaya.com
+MAINTAINER ben.attali8@gmail.com
 USER root
 
 RUN pip install -U pip
