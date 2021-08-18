@@ -21,4 +21,4 @@ For example, let's say I create a `setup.py` file in the root project. I would t
 Notice the `:ro` ending which gives it read only permissions.
 
 ## Adding packages to requirements
-If additional packages are added to the `requirements.txt` file, ensusre to close all open airflow docker instaces (step 9 above - `make local-kill`). Then rerun step 6 (`make local-build`) and finally start it up again (step 7 - `make local-run`).
+If additional packages are added to the `requirements.txt` file, ensusre to close all open airflow docker instaces (`make local-kill`). Then rerun `make local-build` and finally start it up again (`make local-run`).
